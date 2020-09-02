@@ -1,0 +1,56 @@
+GlMark2 benchmark compiled without the "terrain" scene and run on a Thinkpad T450s on 2020-09-01
+(2-core/4-threads 2.7GHz Core i5-5200U, 12GB DDR3-3200 RAM, Crucial MX500 SSD, Debian 10, X11)
+
+To disable the "terrain" scene, set src/default-benchmarks.h:66 to: 
+        //benchmarks.push_back("terrain");
+
+$ glmark2
+=======================================================
+    glmark2 2020.04
+=======================================================
+    OpenGL Information
+    GL_VENDOR:     Intel Open Source Technology Center
+    GL_RENDERER:   Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+    GL_VERSION:    3.0 Mesa 18.3.6
+=======================================================
+[build] use-vbo=false: FPS: 1486 FrameTime: 0.673 ms
+[build] use-vbo=true: FPS: 1518 FrameTime: 0.659 ms
+[texture] texture-filter=nearest: FPS: 663 FrameTime: 1.508 ms
+[texture] texture-filter=linear: FPS: 1177 FrameTime: 0.850 ms
+[texture] texture-filter=mipmap: FPS: 1480 FrameTime: 0.676 ms
+[shading] shading=gouraud: FPS: 1313 FrameTime: 0.762 ms
+[shading] shading=blinn-phong-inf: FPS: 1314 FrameTime: 0.761 ms
+[shading] shading=phong: FPS: 1311 FrameTime: 0.763 ms
+[shading] shading=cel: FPS: 1310 FrameTime: 0.763 ms
+[bump] bump-render=high-poly: FPS: 1174 FrameTime: 0.852 ms
+[bump] bump-render=normals: FPS: 1566 FrameTime: 0.639 ms
+[bump] bump-render=height: FPS: 1552 FrameTime: 0.644 ms
+[effect2d] kernel=0,1,0;1,-4,1;0,1,0;: FPS: 1323 FrameTime: 0.756 ms
+[effect2d] kernel=1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;: FPS: 757 FrameTime: 1.321 ms
+[pulsar] light=false:quads=5:texture=false: FPS: 1457 FrameTime: 0.686 ms
+[desktop] blur-radius=5:effect=blur:passes=1:separable=true:windows=4: FPS: 646 FrameTime: 1.548 ms
+[desktop] effect=shadow:windows=4: FPS: 906 FrameTime: 1.104 ms
+[buffer] columns=200:interleave=false:update-dispersion=0.9:update-fraction=0.5:update-method=map: FPS: 607 FrameTime: 1.647 ms
+[buffer] columns=200:interleave=false:update-dispersion=0.9:update-fraction=0.5:update-method=subdata: FPS: 490 FrameTime: 2.041 ms
+[buffer] columns=200:interleave=true:update-dispersion=0.9:update-fraction=0.5:update-method=map: FPS: 693 FrameTime: 1.443 ms
+[ideas] speed=duration: FPS: 1345 FrameTime: 0.743 ms
+[jellyfish] <default>: FPS: 1132 FrameTime: 0.883 ms
+[shadow] <default>: FPS: 611 FrameTime: 1.637 ms
+[refract] <default>: FPS: 230 FrameTime: 4.348 ms
+[conditionals] fragment-steps=0:vertex-steps=0: FPS: 1429 FrameTime: 0.700 ms
+[conditionals] fragment-steps=5:vertex-steps=0: FPS: 1436 FrameTime: 0.696 ms
+[conditionals] fragment-steps=0:vertex-steps=5: FPS: 1428 FrameTime: 0.700 ms
+[function] fragment-complexity=low:fragment-steps=5: FPS: 1435 FrameTime: 0.697 ms
+[function] fragment-complexity=medium:fragment-steps=5: FPS: 1445 FrameTime: 0.692 ms
+[loop] fragment-loop=false:fragment-steps=5:vertex-steps=5: FPS: 1440 FrameTime: 0.694 ms
+[loop] fragment-steps=5:fragment-uniform=false:vertex-steps=5: FPS: 1438 FrameTime: 0.695 ms
+[loop] fragment-steps=5:fragment-uniform=true:vertex-steps=5: FPS: 1442 FrameTime: 0.693 ms
+=======================================================
+                                  glmark2 Score: 1173 
+=======================================================
+
+
+
+Run with the "terrain" scene included in glmark2:
+
+[terrain] <default>: FPS: 155 FrameTime: 6.452 ms
