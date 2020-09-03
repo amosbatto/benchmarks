@@ -1,9 +1,12 @@
 lMark2 benchmark compiled without the "terrain" scene and run on a Thinkpad T450s on 2020-09-01
 (2-core/4-threads 2.7GHz Core i5-5200U, 12GB DDR3-3200 RAM, Crucial MX500 SSD, Debian 10, X11)
 
-# hardinfo -r
+$ sudo hardinfo -r
+[sudo] password for amos: 
 Computer
  Summary
+Invalid MIT-MAGIC-COOKIE-1 keyError: unable to open display :0
+Invalid MIT-MAGIC-COOKIE-1 keyxdpyinfo:  unable to open display ":0".
  Operating System
  Kernel Modules
  Boots
@@ -46,25 +49,25 @@ Network
 Benchmarks
  CPU Blowfish
 [CPU Blowfish]owfish benchmark...
-ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=4.762260; 4.762260; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991812|1|2|4|Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=4.404901; 4.404901; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991660|1|2|4|(Unknown)
  CPU CryptoHash
 [CPU CryptoHash]ash benchmark...
-ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=483.505789; 0.645287; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991812|1|2|4|Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=480.451625; 0.649389; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991660|1|2|4|(Unknown)
  CPU Fibonacci
 [CPU Fibonacci]e 42nd Fibonacci number...
-ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=0.761480; 0.761480; 1|1|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991812|1|2|4|Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=0.756911; 0.756911; 1|1|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991660|1|2|4|(Unknown)
  CPU N-Queens
 [CPU N-Queens]ens benchmark...
-ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=7.197689; 7.197689; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991812|1|2|4|Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=7.054341; 7.054341; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991660|1|2|4|(Unknown)
  CPU Zlib
 [CPU Zlib]lib benchmark...
-ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=0.513398; 7.596451; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991812|1|2|4|Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=0.511605; 7.623072; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991660|1|2|4|(Unknown)
  FPU FFT
 [FPU FFT]FFT benchmark...
-ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=1.958254; 1.958254; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991812|1|2|4|Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=1.955763; 1.955763; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991660|1|2|4|(Unknown)
  FPU Raytracing
 [FPU Raytracing] Walker's FBENCH...
-ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=1.966069; 1.966069; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991812|1|2|4|Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+ThinkPad_T450s___20BX001PUS_(LENOVO);Intel(R)_Core(TM)_i5_5200U_CPU___2_20GHz;10800_00=1.959334; 1.959334; 4|4|ThinkPad T450s / 20BX001PUS (LENOVO)|Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz|1 physical processor; 2 cores; 4 threads|4x 2700.00 MHz|11991660|1|2|4|(Unknown)
  GPU Drawing
 
 Computer
@@ -76,15 +79,15 @@ Summary
 
 -Computer-
 Processor		: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
-Memory		: 11991MB (3930MB used)
+Memory		: 11991MB (1965MB used)
 Machine Type		: Notebook
 Operating System		: Debian GNU/Linux 10 (buster)
 User Name		: root (root)
-Date/Time		: Wed 02 Sep 2020 08:41:22 AM -04
+Date/Time		: Thu 03 Sep 2020 03:50:49 AM -04
 -Display-
 Resolution		: 0x0 pixels
-OpenGL Renderer		: Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
-X11 Vendor		: The X.Org Foundation
+OpenGL Renderer		: (Unknown)
+X11 Vendor		: (null)
 -Audio Devices-
 Audio Adapter		: HDA-Intel - HDA Intel HDMI
 Audio Adapter		: HDA-Intel - HDA Intel PCH
@@ -95,19 +98,19 @@ Audio Adapter		: HDA-Intel - HDA Intel PCH
  Power Button
  Video Bus
  ThinkPad Extra Buttons
+ PC Speaker
  HDA Intel HDMI HDMI/DP,pcm:3
  HDA Intel HDMI HDMI/DP,pcm:7
  HDA Intel HDMI HDMI/DP,pcm:8
  HDA Intel HDMI HDMI/DP,pcm:9
  HDA Intel HDMI HDMI/DP,pcm:10
- PC Speaker
  HDA Digital PCBeep
  HDA Intel PCH Dock Mic
  HDA Intel PCH Mic
  HDA Intel PCH Dock Headphone
  HDA Intel PCH Headphone
- Integrated Camera: Integrated C
  Synaptics TM3053-004
+ Integrated Camera: Integrated C
 -Printers-
 No printers found
 
@@ -115,124 +118,107 @@ Operating System
 ----------------
 
 -Version-
-Kernel		: Linux 4.19.0-5-amd64 (x86_64)
-Version		: #1 SMP Debian 4.19.37-5+deb10u1 (2019-07-19)
+Kernel		: Linux 4.19.0-10-amd64 (x86_64)
+Version		: #1 SMP Debian 4.19.132-1 (2020-07-24)
 C Library		: GNU C Library / (Debian GLIBC 2.30-4) 2.30
 Distribution		: Debian GNU/Linux 10 (buster)
 -Current Session-
 Computer Name		: t450s
 User Name		: root (root)
-Language		: en_US.UTF-8 (en_US:en)
+Language		: en_US.utf8 (en_US:en)
 Home Directory		: /root
 -Misc-
-Uptime		: 2 days 17 hours 0 minutes
-Load Average		: 0.78, 1.14, 1.76
-Available entropy in /dev/random		: 3823 bits (healthy)
+Uptime		: 15 minutes
+Load Average		: 0.58, 0.97, 0.88
+Available entropy in /dev/random		: 3570 bits (healthy)
 
 Kernel Modules
 --------------
 
 -Loaded Modules-
-psmouse		: PS/2 mouse driver
-msr		: x86 generic MSR driver
-btrfs
-zstd_compress		: Zstd Compressor
-xor
-raid6_pq		: RAID6 Q-syndrome calculations
-ufs
-qnx4
-hfsplus		: Extended Macintosh Filesystem
-hfs
-minix
-vfat		: VFAT filesystem support
-msdos		: MS-DOS filesystem support
-fat
-jfs		: The Journaled Filesystem (JFS)
-xfs		: SGI XFS with ACLs, security attributes, realtime, no debug enabled
-libcrc32c		: CRC32c (Castagnoli) calculations
-dm_mod		: device-mapper driver
-cpuid		: x86 generic CPUID driver
-rfcomm		: Bluetooth RFCOMM ver 1.11
 ctr		: CTR Counter block mode
 ccm		: Counter with CBC MAC
+rfcomm		: Bluetooth RFCOMM ver 1.11
 devlink		: Network physical device Netlink interface
 nf_tables
 nfnetlink
-pci_stub
+vboxnetadp		: Oracle VM VirtualBox Network Adapter Driver
+vboxnetflt		: Oracle VM VirtualBox Network Filter Driver
+vboxdrv		: Oracle VM VirtualBox Support Driver
 cmac		: CMAC keyed hash algorithm
 bnep		: Bluetooth BNEP ver 1.3
 fuse		: Filesystem in Userspace
 uvcvideo		: USB Video Class driver
-videobuf2_vmalloc		: vmalloc memory handling routines for videobuf2
-videobuf2_memops		: common memory handling routines for videobuf2
-videobuf2_v4l2		: Driver helper framework for Video for Linux 2
-videobuf2_common		: Media buffer core framework
-btusb		: Generic Bluetooth USB driver ver 0.8
-btrtl		: Bluetooth support for Realtek devices ver 0.1
-joydev		: Joystick device interfaces
-btbcm		: Bluetooth support for Broadcom devices ver 0.1
-btintel		: Bluetooth support for Intel devices ver 0.1
-videodev		: Device registrar for Video4Linux drivers v2
 intel_rapl		: Driver for Intel RAPL (Running Average Power Limit)
 x86_pkg_temp_thermal		: X86 PKG TEMP Thermal Driver
 intel_powerclamp		: Package Level C-state Idle Injection for Intel CPUs
-bluetooth		: Bluetooth Core ver 2.22
-binfmt_misc
-media		: Device node registration for media drivers
+videobuf2_vmalloc		: vmalloc memory handling routines for videobuf2
+joydev		: Joystick device interfaces
 coretemp		: Intel Core temperature monitor
 kvm_intel
+btusb		: Generic Bluetooth USB driver ver 0.8
+videobuf2_memops		: common memory handling routines for videobuf2
+btrtl		: Bluetooth support for Realtek devices ver 0.1
+btbcm		: Bluetooth support for Broadcom devices ver 0.1
+videobuf2_v4l2		: Driver helper framework for Video for Linux 2
+btintel		: Bluetooth support for Intel devices ver 0.1
 mei_wdt		: Device driver for Intel MEI iAMT watchdog
-drbg		: NIST SP800-90A Deterministic Random Bit Generator (DRBG) using following cores: HMAC
-ansi_cprng		: Software Pseudo Random Number Generator
-ecdh_generic		: ECDH generic algorithm
 kvm
+binfmt_misc
+videobuf2_common		: Media buffer core framework
 arc4		: ARC4 Cipher Algorithm
+videodev		: Device registrar for Video4Linux drivers v2
+bluetooth		: Bluetooth Core ver 2.22
 irqbypass		: IRQ bypass manager utility module
 crct10dif_pclmul		: T10 DIF CRC calculation accelerated with PCLMULQDQ.
 crc32_pclmul
+media		: Device node registration for media drivers
+iwlmvm		: The new Intel(R) wireless AGN driver for Linux
+drbg		: NIST SP800-90A Deterministic Random Bit Generator (DRBG) using following cores: HMAC
 ghash_clmulni_intel		: GHASH Message Digest Algorithm, accelerated by PCLMULQDQ-NI
 intel_cstate
+ansi_cprng		: Software Pseudo Random Number Generator
 intel_uncore
-iwlmvm		: The new Intel(R) wireless AGN driver for Linux
+snd_hda_codec_realtek		: Realtek HD-audio codec
+snd_hda_codec_generic		: Generic HD-audio codec parser
 intel_rapl_perf
 mac80211		: IEEE 802.11 subsystem
+snd_hda_codec_hdmi		: HDMI HD-audio codec
+ecdh_generic		: ECDH generic algorithm
+snd_hda_intel		: Intel HDA driver
 pcspkr		: PC Speaker beeper driver
 serio_raw		: Raw serio driver
-snd_hda_codec_realtek		: Realtek HD-audio codec
-rmi_smbus		: RMI4 SMBus driver
-rmi_core		: RMI bus
-snd_hda_codec_hdmi		: HDMI HD-audio codec
-snd_hda_codec_generic		: Generic HD-audio codec parser
 wmi_bmof		: WMI embedded Binary MOF driver
-iwlwifi		: Intel(R) Wireless WiFi driver for Linux
-snd_hda_intel		: Intel HDA driver
-snd_hda_codec		: HDA codec core
-sg		: SCSI generic (sg) driver
 intel_pch_thermal		: Intel PCH Thermal driver
-cfg80211		: wireless configuration support
+rmi_smbus		: RMI4 SMBus driver
+snd_hda_codec		: HDA codec core
+rmi_core		: RMI bus
+iwlwifi		: Intel(R) Wireless WiFi driver for Linux
 snd_hda_core		: HD-audio bus
-snd_hwdep		: Hardware dependent layer
-snd_pcm		: Midlevel PCM code for ALSA.
-rtsx_pci_ms		: Realtek PCI-E Memstick Card Host Driver
-iTCO_wdt		: Intel TCO WatchDog Timer Driver
 thinkpad_acpi		: ThinkPad ACPI Extras
-iTCO_vendor_support		: Intel TCO Vendor Specific WatchDog Timer Driver Support
-memstick		: Sony MemoryStick core driver
+rtsx_pci_ms		: Realtek PCI-E Memstick Card Host Driver
+snd_hwdep		: Hardware dependent layer
+sg		: SCSI generic (sg) driver
 mei_me		: Intel(R) Management Engine Interface
-snd_timer		: ALSA timer interface
+snd_pcm		: Midlevel PCM code for ALSA.
+memstick		: Sony MemoryStick core driver
 mei		: Intel(R) Management Engine Interface
+cfg80211		: wireless configuration support
+snd_timer		: ALSA timer interface
+iTCO_wdt		: Intel TCO WatchDog Timer Driver
+iTCO_vendor_support		: Intel TCO Vendor Specific WatchDog Timer Driver Support
 nvram
 snd		: Advanced Linux Sound Architecture driver for soundcards.
-soundcore		: Core sound module
 tpm_tis		: TPM Driver
 tpm_tis_core		: TPM Driver
-rfkill		: RF switch support
+soundcore		: Core sound module
 tpm		: TPM Driver
 ac		: ACPI AC Adapter Driver
-battery		: ACPI Battery Driver
-rng_core		: H/W Random Number Generator (RNG) driver
-evdev		: Input driver event char devices
+rfkill		: RF switch support
 pcc_cpufreq		: Processor Clocking Control interface driver
+rng_core		: H/W Random Number Generator (RNG) driver
+battery		: ACPI Battery Driver
+evdev		: Input driver event char devices
 squashfs		: squashfs 4.0, a compressed read-only filesystem
 zstd_decompress		: Zstd Decompressor
 xxhash		: xxHash
@@ -254,32 +240,34 @@ ecb		: ECB block cipher algorithm
 sd_mod		: SCSI disk (sd) driver
 i915		: Intel Graphics
 crc32c_intel		: CRC32c (Castagnoli) optimization using Intel Hardware.
+ahci		: AHCI SATA low-level driver
+libahci		: Common AHCI SATA low-level routines
 rtsx_pci_sdmmc		: Realtek PCI-E SD/MMC Card Host Driver
 mmc_core
-xhci_pci		: xHCI PCI Host Controller Driver
-xhci_hcd		: &apos;eXtensible&apos; Host Controller (xHC) Driver
-ehci_pci		: EHCI PCI platform driver
-ehci_hcd		: USB 2.0 &apos;Enhanced&apos; Host Controller (EHCI) Driver
-i2c_algo_bit		: I2C-Bus bit-banging algorithm
-ahci		: AHCI SATA low-level driver
-drm_kms_helper		: DRM KMS helper
-libahci		: Common AHCI SATA low-level routines
-aesni_intel		: Rijndael (AES) Cipher Algorithm, Intel AES-NI instructions optimized
 libata		: Library module for ATA devices
-e1000e		: Intel(R) PRO/1000 Network Driver
-usbcore
-rtsx_pci		: Realtek PCI-E Card Reader Driver
+aesni_intel		: Rijndael (AES) Cipher Algorithm, Intel AES-NI instructions optimized
+i2c_algo_bit		: I2C-Bus bit-banging algorithm
+xhci_pci		: xHCI PCI Host Controller Driver
+drm_kms_helper		: DRM KMS helper
 aes_x86_64		: Rijndael (AES) Cipher Algorithm, asm optimized
 crypto_simd
+ehci_pci		: EHCI PCI platform driver
+xhci_hcd		: &apos;eXtensible&apos; Host Controller (xHC) Driver
+scsi_mod		: SCSI core
+ehci_hcd		: USB 2.0 &apos;Enhanced&apos; Host Controller (EHCI) Driver
+psmouse		: PS/2 mouse driver
 cryptd		: Software async crypto daemon
 glue_helper
-scsi_mod		: SCSI core
+e1000e		: Intel(R) PRO/1000 Network Driver
 drm		: DRM shared core routines
+usbcore
+rtsx_pci		: Realtek PCI-E Card Reader Driver
 i2c_i801		: I801 SMBus driver
 lpc_ich		: LPC interface for Intel ICH
 usb_common
-wmi		: ACPI-WMI Mapping Driver
+mfd_core
 thermal		: ACPI Thermal Zone Driver
+wmi		: ACPI-WMI Mapping Driver
 video		: ACPI Video Driver
 button		: ACPI Button Driver
 
@@ -287,6 +275,9 @@ Boots
 -----
 
 -Boots-
+Thu Sep 3 03:35		: 4.19.0-10-amd64
+Thu Sep 3 02:42		: 4.19.0-10-amd64
+Thu Sep 3 02:35		: 4.19.0-10-amd64
 Sun Aug 30 15:41		: 4.19.0-5-amd64
 Sun Aug 30 15:02		: 4.19.0-5-amd64
 Sun Aug 30 14:56		: 4.19.0-5-amd64
@@ -444,120 +435,57 @@ Filesystems
 
 -Mounted File Systems-
 udev	/dev	0.00 % (5.7 GiB of 5.7 GiB)	
-tmpfs	/run	4.55 % (1.1 GiB of 1.1 GiB)	
-/dev/sda5	/	32.84 % (45.8 GiB of 68.3 GiB)	
-tmpfs	/dev/shm	0.00 % (5.7 GiB of 5.7 GiB)	
+tmpfs	/run	0.82 % (1.1 GiB of 1.1 GiB)	
+/dev/sda5	/	32.43 % (46.1 GiB of 68.3 GiB)	
+tmpfs	/dev/shm	0.07 % (5.7 GiB of 5.7 GiB)	
 tmpfs	/run/lock	0.08 % (5.0 MiB of 5.0 MiB)	
 tmpfs	/sys/fs/cgroup	0.00 % (5.7 GiB of 5.7 GiB)	
 /dev/loop0	/snap/gtk-common-themes/1502	100.00 % (0.0 B of 54.9 MiB)	
-/dev/loop2	/snap/core/9804	100.00 % (0.0 B of 96.6 MiB)	
-/dev/loop1	/snap/gtk-common-themes/1506	100.00 % (0.0 B of 62.1 MiB)	
-/dev/loop3	/snap/core18/1885	100.00 % (0.0 B of 55.4 MiB)	
-/dev/loop4	/snap/core18/1880	100.00 % (0.0 B of 55.0 MiB)	
-/dev/loop5	/snap/core/9665	100.00 % (0.0 B of 97.0 MiB)	
+/dev/loop1	/snap/core18/1885	100.00 % (0.0 B of 55.4 MiB)	
+/dev/loop2	/snap/gtk-common-themes/1506	100.00 % (0.0 B of 62.1 MiB)	
+/dev/loop4	/snap/core/9665	100.00 % (0.0 B of 97.0 MiB)	
+/dev/loop3	/snap/core/9804	100.00 % (0.0 B of 96.6 MiB)	
+/dev/loop5	/snap/core18/1880	100.00 % (0.0 B of 55.0 MiB)	
+/dev/sda6	/home	92.25 % (3.5 GiB of 45.6 GiB)	
 /dev/sda3	/media/files	73.81 % (76.6 GiB of 292.5 GiB)	
-/dev/sda6	/home	93.57 % (2.9 GiB of 45.6 GiB)	
-tmpfs	/run/user/1000	0.01 % (1.1 GiB of 1.1 GiB)	
+tmpfs	/run/user/1000	0.68 % (1.1 GiB of 1.1 GiB)	
 
 Display
 -------
 
 -Display-
 Resolution		: 0x0 pixels
-Vendor		: The X.Org Foundation
-Version		: 1.20.4
-Current Display Name		: :0
+Vendor		: (null)
+Version		: (null)
+Current Display Name		: (null)
 -Monitors-
 -OpenGL-
-Vendor		: Intel Open Source Technology Center
-Renderer		: Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
-Version		: 3.0 Mesa 18.3.6
-Direct Rendering		: Yes
+Vendor		: (Unknown)
+Renderer		: (Unknown)
+Version		: (Unknown)
+Direct Rendering		: No
 -Extensions-
-Composite
-DAMAGE
-DOUBLE-BUFFER
-DPMS
-DRI2
-DRI3
-GLX
-Generic Event Extension
-MIT-SCREEN-SAVER
-MIT-SHM
-Present
-RANDR
-RECORD
-RENDER
-SECURITY
-SHAPE
-SYNC
-X-Resource
-XC-MISC
-XFIXES
-XFree86-DGA
-XFree86-VidModeExtension
-XINERAMA
-XInputExtension
-XKEYBOARD
-XTEST
-XVideo
-default screen number:    0
 
 Environment Variables
 ---------------------
 
 -Environment Variables-
-SHELL		: /bin/bash
-SESSION_MANAGER		: local/t450s:@/tmp/.ICE-unix/1284,unix/t450s:/tmp/.ICE-unix/1284
-QT_ACCESSIBILITY		: 1
 COLORTERM		: truecolor
-XDG_SESSION_PATH		: /org/freedesktop/DisplayManager/Session0
-GNOME_DESKTOP_SESSION_ID		: this-is-deprecated
-GTK_IM_MODULE		: ibus
 LANGUAGE		: en_US:en
-QT4_IM_MODULE		: ibus
-SSH_AUTH_SOCK		: /run/user/1000/keyring/ssh
-XMODIFIERS		: @im=ibus
-DESKTOP_SESSION		: lightdm-xsession
-SSH_AGENT_PID		: 1332
-GTK_MODULES		: gail:atk-bridge
-XDG_SEAT		: seat0
-PWD		: /home/amos/Downloads/ar3k/linux-firmware
-LOGNAME		: amos
-XDG_SESSION_DESKTOP		: lightdm-xsession
-XDG_SESSION_TYPE		: x11
-GPG_AGENT_INFO		: /run/user/1000/gnupg/S.gpg-agent:0:1
-XAUTHORITY		: /home/amos/.Xauthority
-LS_OPTIONS		: --color=auto
-XDG_GREETER_DATA_DIR		: /var/lib/lightdm/data/amos
-GDM_LANG		: en_US.utf8
-HOME		: /root
-LANG		: en_US.UTF-8
+LANG		: en_US.utf8
 LS_COLORS		: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
-XDG_CURRENT_DESKTOP		: X-Cinnamon
-VTE_VERSION		: 5402
-XDG_SEAT_PATH		: /org/freedesktop/DisplayManager/Seat0
-GNOME_TERMINAL_SCREEN		: /org/gnome/Terminal/screen/62e9b72a_d4d1_40dc_bb59_67add6a08501
-CLUTTER_IM_MODULE		: ibus
-XDG_SESSION_CLASS		: user
 TERM		: xterm-256color
-GTK_OVERLAY_SCROLLING		: 0
-USER		: amos
-GNOME_TERMINAL_SERVICE		: :1.198
 DISPLAY		: :0
-SHLVL		: 2
-QT_IM_MODULE		: ibus
-XDG_VTNR		: 7
-DESKTOP_AUTOSTART_ID		: 1097d5d292ccc7c0da159881649326069400000012840047
-XDG_SESSION_ID		: 2
-XDG_RUNTIME_DIR		: /run/user/1000
-XDG_DATA_DIRS		: /usr/share/gnome:/usr/local/share/:/usr/share/
-PATH		: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-GDMSESSION		: lightdm-xsession
-DBUS_SESSION_BUS_ADDRESS		: unix:path=/run/user/1000/bus
+PATH		: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 MAIL		: /var/mail/root
-_		: /usr/bin/hardinfo
-OLDPWD		: /home/amos/Downloads/ar3k/linux-firmware/.git
+LOGNAME		: root
+USER		: root
+HOME		: /root
+SHELL		: /bin/bash
+SUDO_COMMAND		: /usr/bin/hardinfo -r
+SUDO_USER		: amos
+SUDO_UID		: 1000
+SUDO_GID		: 1000
 
 Development
 -----------
@@ -640,6 +568,8 @@ jvb
 jicofo
 prosody		: Prosody XMPP Server
 turnserver		: turnserver daemon
+tss		: TPM2 software stack
+Debian-gdm		: Gnome Display Manager
 
 Groups
 ------
@@ -719,6 +649,9 @@ i2c		: 129
 jitsi		: 1001
 prosody		: 130
 turnserver		: 131
+weston-launch		: 132
+tss		: 133
+Debian-gdm		: 134
 
 Devices
 *******
@@ -738,43 +671,43 @@ Memory
 ------
 
 -Memory-
-MemTotal	Total Memory	11991812 KiB	
-MemFree	Free Memory	4937440 KiB	
-MemAvailable		9259632 KiB	
-Buffers		582476 KiB	
-Cached		3124024 KiB	
-SwapCached	Cached Swap	12660 KiB	
-Active		3243624 KiB	
-Inactive		2366744 KiB	
-Active(anon)		1339024 KiB	
-Inactive(anon)		783632 KiB	
-Active(file)		1904600 KiB	
-Inactive(file)		1583112 KiB	
-Unevictable		64 KiB	
-Mlocked		64 KiB	
+MemTotal	Total Memory	11991660 KiB	
+MemFree	Free Memory	6212748 KiB	
+MemAvailable		9828024 KiB	
+Buffers		139188 KiB	
+Cached		3813584 KiB	
+SwapCached	Cached Swap	0 KiB	
+Active		2947788 KiB	
+Inactive		2459252 KiB	
+Active(anon)		1455184 KiB	
+Inactive(anon)		165444 KiB	
+Active(file)		1492604 KiB	
+Inactive(file)		2293808 KiB	
+Unevictable		56 KiB	
+Mlocked		56 KiB	
 SwapTotal	Virtual Memory	12695548 KiB	
-SwapFree	Free Virtual Memory	12568060 KiB	
-Dirty		132 KiB	
+SwapFree	Free Virtual Memory	12695548 KiB	
+Dirty		144 KiB	
 Writeback		0 KiB	
-AnonPages		1876812 KiB	
-Mapped		294112 KiB	
-Shmem		218832 KiB	
-Slab		1292256 KiB	
-SReclaimable		1151428 KiB	
-SUnreclaim		140828 KiB	
-KernelStack		13468 KiB	
-PageTables		20060 KiB	
+AnonPages		1421508 KiB	
+Mapped		424272 KiB	
+Shmem		166736 KiB	
+Slab		238040 KiB	
+SReclaimable		129648 KiB	
+SUnreclaim		108392 KiB	
+KernelStack		12260 KiB	
+PageTables		20380 KiB	
 NFS_Unstable		0 KiB	
 Bounce		0 KiB	
 WritebackTmp		0 KiB	
-CommitLimit		18691452 KiB	
-Committed_AS		6365980 KiB	
+CommitLimit		18691376 KiB	
+Committed_AS		5428236 KiB	
 VmallocTotal		-1 KiB	
 VmallocUsed		0 KiB	
 VmallocChunk		0 KiB	
-Percpu		5344 KiB	
+Percpu		4160 KiB	
 HardwareCorrupted		0 KiB	
-AnonHugePages		1173504 KiB	
+AnonHugePages		651264 KiB	
 ShmemHugePages		0 KiB	
 ShmemPmdMapped		0 KiB	
 HugePages_Total		0	
@@ -783,9 +716,9 @@ HugePages_Rsvd		0
 HugePages_Surp		0	
 Hugepagesize		2048 KiB	
 Hugetlb		0 KiB	
-DirectMap4k		348944 KiB	
-DirectMap2M		11923456 KiB	
-DirectMap1G		0 KiB	
+DirectMap4k		217872 KiB	
+DirectMap2M		8908800 KiB	
+DirectMap1G		3145728 KiB	
 
 PCI Devices
 -----------
@@ -828,15 +761,15 @@ Battery
 -------
 
 -Battery: BAT1-
-State		: Charging
-Capacity		: 79 / Normal
+State		: Discharging
+Capacity		: 97 / Normal
 Battery Technology		: Li-ion
 Manufacturer		: SANYO
 Model Number		: 45N1775
 Serial Number		: 2341
 -Battery: BAT0-
 State		: Unknown
-Capacity		: 98 / Normal
+Capacity		: 97 / Normal
 Battery Technology		: Li-ion
 Manufacturer		: LGC
 Model Number		: 45N1113
@@ -846,17 +779,17 @@ Sensors
 -------
 
 -Sensors-
-../../thermal_zone0/temp1	Temperature	48.00°C	
+../../thermal_zone0/temp1	Temperature	50.00°C	
 thinkpad_hwmon/fan1	Fan	65535.00RPM	
-../../thermal_zone1/temp1	Temperature	47.50°C	
+../../thermal_zone1/temp1	Temperature	49.00°C	
 ../../thermal_zone2/temp1	Temperature	34.00°C	
-coretemp/temp1	Temperature	53.00°C	
-coretemp/temp2	Temperature	49.00°C	
-coretemp/temp3	Temperature	53.00°C	
+coretemp/temp1	Temperature	54.00°C	
+coretemp/temp2	Temperature	51.00°C	
+coretemp/temp3	Temperature	54.00°C	
 thermal/thermal_zone2	Temperature	34.00°C	
-thermal/thermal_zone0	Temperature	48.00°C	
-thermal/thermal_zone3	Temperature	53.00°C	
-thermal/thermal_zone1	Temperature	47.50°C	
+thermal/thermal_zone0	Temperature	50.00°C	
+thermal/thermal_zone3	Temperature	54.00°C	
+thermal/thermal_zone1	Temperature	49.00°C	
 
 Input Devices
 -------------
@@ -868,19 +801,19 @@ Input Devices
  Power Button
  Video Bus
  ThinkPad Extra Buttons
+ PC Speaker
  HDA Intel HDMI HDMI/DP,pcm:3
  HDA Intel HDMI HDMI/DP,pcm:7
  HDA Intel HDMI HDMI/DP,pcm:8
  HDA Intel HDMI HDMI/DP,pcm:9
  HDA Intel HDMI HDMI/DP,pcm:10
- PC Speaker
  HDA Digital PCBeep
  HDA Intel PCH Dock Mic
  HDA Intel PCH Mic
  HDA Intel PCH Dock Headphone
  HDA Intel PCH Headphone
- Integrated Camera: Integrated C
  Synaptics TM3053-004
+ Integrated Camera: Integrated C
 
 Storage
 -------
@@ -1054,9 +987,9 @@ Resources
 <tt>  fee00000-fee00fff </tt>		: Reserved
 <tt>ffa00000-ffffffff </tt>		: Reserved
 <tt>100000000-33dffffff </tt>		: System RAM
-<tt>  2b6200000-2b6c031d0 </tt>		: Kernel code
-<tt>  2b6c031d1-2b7336bff </tt>		: Kernel data
-<tt>  2b77c2000-2b79fffff </tt>		: Kernel bss
+<tt>  13c000000-13ca031d0 </tt>		: Kernel code
+<tt>  13ca031d1-13d13657f </tt>		: Kernel data
+<tt>  13d5c8000-13d7fffff </tt>		: Kernel bss
 <tt>33e000000-33fffffff </tt>		: RAM buffer
 -DMA-
 <tt> 4</tt>		: cascade
@@ -1069,9 +1002,9 @@ Interfaces
 ----------
 
 -Network Interfaces-
+wlp3s0	72.55MiB	3.92MiB	192.168.1.6	
 enp0s25	0.00MiB	0.00MiB		
-wlp3s0	5601.84MiB	337.89MiB	192.168.1.6	
-lo	778.79MiB	778.79MiB	127.0.0.1	
+lo	2.17MiB	2.17MiB	127.0.0.1	
 
 IP Connections
 --------------
@@ -1087,11 +1020,7 @@ ARP Table
 ---------
 
 -ARP Table-
-52.114.132.91	00:00:00:00:00:00	enp0s25	
 192.168.1.1	d8:32:14:fa:5f:b8	wlp3s0	
-52.114.128.43	00:00:00:00:00:00	enp0s25	
-192.168.1.1	d8:32:14:fa:5f:b8	wlp3s0	
-89.187.173.70	00:00:00:00:00:00	enp0s25	
 
 DNS Servers
 -----------
@@ -1116,7 +1045,7 @@ CPU Blowfish
 ------------
 
 -CPU Blowfish-
-Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz	4x 2700.00 MHz	4.76	
+Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz	4x 2700.00 MHz	4.40	
 Intel(R) Pentium(R) D CPU 3.00GHz	2x 3000.00 MHz	10.84	
 Intel(R) Celeron(R) CPU540@ 1.86GHz	1x 1861.00 MHz	25.49	
 AMD Turion(tm) 64 X2 TL-58	2x 800.00 MHz	12.58	
@@ -1173,7 +1102,7 @@ CPU CryptoHash
 --------------
 
 -CPU CryptoHash-
-Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz	4x 2700.00 MHz	483.51	
+Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz	4x 2700.00 MHz	480.45	
 Intel(R) Atom(TM) CPU330 @ 1.60GHz	4x 1596.00 MHz	105.57	
 Intel(R) Core(TM)2 Duo CPU T5250@ 1.50GHz	2x 1500.00 MHz	102.95	
 Intel(R) Celeron(R) M processor900MHz	1x 900.00 MHz	24.34	
@@ -1286,7 +1215,7 @@ CPU N-Queens
 ------------
 
 -CPU N-Queens-
-Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz	4x 2700.00 MHz	7.20	
+Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz	4x 2700.00 MHz	7.05	
 AMD Athlon(tm) 64 X2 Dual Core Processor 5400+	2x 1000.00 MHz	15.06	
 Genuine Intel(R) CPU T2080@ 1.73GHz	2x 1730.00 MHz	33.31	
 Intel(R) Core(TM)2 Duo CPU T5450@ 1.66GHz	2x 1660.00 MHz	14.49	
@@ -1405,7 +1334,7 @@ FPU Raytracing
 --------------
 
 -FPU Raytracing-
-Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz	4x 2700.00 MHz	1.97	
+Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz	4x 2700.00 MHz	1.96	
 Intel(R) Core(TM) Duo CPUT2450@ 2.00GHz	2x 2000.00 MHz	28.36	
 AMD Athlon(tm) XP 2200+	1x 1782.00 MHz	29.74	
 Intel(R) Pentium(R) DualCPUT2370@ 1.73GHz	2x 1733.00 MHz	25.82	
